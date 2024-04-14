@@ -13,4 +13,4 @@ const getEvenTodos =  async () => {
 
 module.exports = {
     getEvenTodos
-}
+};

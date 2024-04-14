@@ -1,7 +1,7 @@
 {
   "name": "demyst",
   "version": "1.0.0",
-  "description": "The goal of the project is to build a simple business loan application system.",
+  "description": "CLI todo application",
   "main": "index.js",
   "scripts": {
     "test": "jest",
