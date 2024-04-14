@@ -34,3 +34,13 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 ### Do I need to write tests for connecting to API ?
 
 That can be ommitted.
+
+### Steps to run the CLI & Tests
+
+```
+docker build --build-arg COMMAND=test --progress=plain --no-cache --target test .
+```
+
+```
+docker build --build-arg COMMAND=test --progress=plain --no-cache --target start .
+```
